@@ -10,7 +10,7 @@ Return False if the number is not an integer
 def isInteger(number):
     if number == int:
         return True
-    else:
+    elif number == float:
         return False
 
 
