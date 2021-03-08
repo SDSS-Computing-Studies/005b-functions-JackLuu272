@@ -15,5 +15,5 @@ def hypotenuse(a,b,boolean):
         return c
     elif boolean == False and a > b:
         return a
-    else:
+    elif boolean == false and a < b:
         return b
