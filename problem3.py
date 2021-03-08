@@ -17,4 +17,4 @@ def factors(a):
         if a % i == 0:
             list.append(i)
             list.sort()
-            return(list)
+            return list
