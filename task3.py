@@ -19,5 +19,5 @@ for i in range (0, n):
 def perimeter(list):
     return sum(list)
 
-print(sum(list))
+print(perimeter(list))
     

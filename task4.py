@@ -7,14 +7,15 @@ Return False if the number is not an integer
 (2 points)
 """
 
-
+number = float(input("Enter number: "))
 
 def isInteger(number):
-    if isinstance(n, int):
-        return True
-    if isinstance(n, float):
-        return n.isInteger()
-    return False
+    if number == int:
+        return true
+    elif number == float:
+        return false
 
 print(isInteger(number))
+        
+
 

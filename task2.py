@@ -17,4 +17,4 @@ for i in range(0, n):
 def largest(list):
     return max(list)
 
-print(max(list))
+print(largest(list))
