@@ -7,17 +7,7 @@ added together
 (2 points)
 """
 
-list = []
-
-n = int(input("Enter the number of elements: "))
-
-for i in range (0, n):
-    elements = float(input())
-
-    list.append(elements)
-
 def perimeter(list):
     return sum(list)
 
-print(perimeter(list))
     

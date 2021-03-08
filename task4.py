@@ -7,15 +7,13 @@ Return False if the number is not an integer
 (2 points)
 """
 
-number = float(input("Enter number: "))
-
 def isInteger(number):
     if number == int:
-        return true
+        return True
     elif number == float:
-        return false
+        return False
 
-print(isInteger(number))
+
         
 
 
