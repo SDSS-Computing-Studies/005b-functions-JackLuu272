@@ -8,10 +8,12 @@ Return the missing side
 (2 points)
 """
 
-def hypotenuse(a,b,c,boolean):
-    if a**2 + b**2 == c**2 and boolean == True:
-        return c 
-    elif a**2 + b**2 != c**2 and a > b and boolean == False:
+def hypotenuse(a,b,boolean):
+    c = math.sqrt(a**2 + b**2)
+
+    if boolean == True and a**2 + b**2 == c**2:
+        return c
+    elif boolean == False and a > b:
         return a
     else:
-        return b 
+        return b
