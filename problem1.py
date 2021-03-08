@@ -14,6 +14,6 @@ def hypotenuse(a,b,boolean):
     if boolean == True and a**2 + b**2 == c**2:
         return c
     elif boolean == False and a > b:
-        return c = math.sqrt(a**2 - b**2)
+        return math.sqrt(a**2 - b**2)
     elif boolean == False and a < b:
-        return c = math.sqrt(b**2 - a**2)
+        return math.sqrt(b**2 - a**2)
