@@ -18,6 +18,3 @@ def sum(a,b):
 def sum(a,b):
     return a + b 
 
-a = float(input())
-b = float(input())
-print(sum(a,b))
