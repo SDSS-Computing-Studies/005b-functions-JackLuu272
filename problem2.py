@@ -13,7 +13,6 @@ def distance(c1,c2):
    #i = math.sqrt(((a-x)**2) + ((b-y)**2))
    #return i
    pass
-   c1 = ()
-   c2 = ()
-   return math.sqrt((a-x)**2+(b-y)**2)
-    
+   c1 = (x1, y1)
+   c2 = (x2, y2)
+   return math.sqrt((x1 -x2)**2 + (y1-y2)**2) 
