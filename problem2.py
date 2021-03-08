@@ -9,6 +9,7 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
-def distance((a,b),(x,y))
-   i = math.sqrt(((a-x)**2) + ((b-y)**2))
-   return i
+def distance(c1,c2):
+   #i = math.sqrt(((a-x)**2) + ((b-y)**2))
+   #return i
+   pass
