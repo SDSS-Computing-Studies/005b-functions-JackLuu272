@@ -10,9 +10,10 @@ Example: The factors of 10 are 1, 2, 5, 10
 """
 import math
 
-list = []
+
 
 def factors(a):
+    list = []
     for i in range(1,a + 1):
         list.append(i)
         if a % i == 0:
