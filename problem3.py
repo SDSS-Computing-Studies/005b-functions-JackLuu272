@@ -14,5 +14,5 @@ def factors(a):
         if a % i == 0:
             list = []
             list.append(i)
-            print(list)
+            return list.strip()
             
