@@ -15,4 +15,5 @@ def factors(a):
         if a % i == 0:
             list = []
             list.append(i)
+            list.remove( )
             return list   
