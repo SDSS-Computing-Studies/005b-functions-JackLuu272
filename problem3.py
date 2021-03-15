@@ -14,4 +14,5 @@ def factors(a):
         if a % i == 0:
             list = []
             list.append(i)
-            return list
+            print(list)
+            
