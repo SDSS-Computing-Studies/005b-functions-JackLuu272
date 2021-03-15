@@ -9,8 +9,7 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
-c1 = (1,2)
-
-print(c1[0])
+def distance(c1,c2):
+   return round(math.sqrt((c1[0]-c2[0])**2 + (c1[1]-c2[1])**2),3)
 
 
