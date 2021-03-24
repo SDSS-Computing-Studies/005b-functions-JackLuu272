@@ -9,10 +9,11 @@ Example: The factors of 10 are 1, 2, 5, 10
 (2 points)
 """
 
+list = []
 
 def factors(a):
     for i in range(1, a + 1):
-        list = []
         if a % i == 0:
             list.append(i)
-            return list   
+            return list
+               
