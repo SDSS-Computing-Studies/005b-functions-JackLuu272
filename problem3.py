@@ -12,7 +12,7 @@ Example: The factors of 10 are 1, 2, 5, 10
 
 def factors(a):
     for i in range(1, a + 1):
+        list = []
         if a % i == 0:
-            list = []
             list.append(i)
             return list   
