@@ -16,4 +16,3 @@ def factors(a):
             list.append(i)
     return list
 
-print(factors(12))
